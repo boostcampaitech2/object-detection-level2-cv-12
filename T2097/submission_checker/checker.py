@@ -1,7 +1,7 @@
 import csv
 
 # csv file path
-csv_path = "/opt/ml/submission_checker/submission_wrong_format.csv"
+csv_path = "/opt/ml/submission_checker/submission_latest_test2.csv"
 csv_reader = csv.reader(open(csv_path, 'r'))
 data = list(csv_reader)
 
@@ -18,10 +18,10 @@ def Check(v):
 error_cnt = 0
 category_cnt = [0] * 10
 min_confidence = 1e9
-bbox_cnt = [0] * (len(data) - 1)
+bbox_cnt = [0] * (len(data))
 
 # check data
-for i in range(1, len(data) - 1):
+for i in range(1, len(data)):
     v = list(map(float, data[i][0].split()))
     for j in range(0, len(v), 6):
         cur = v[j:j+6]
