@@ -47,9 +47,7 @@ for line in tqdm.tqdm(pseudoCsv):
         
         
     numLine+=1
-print(numLine-1+numTrainimage-1)
-print(len(new_train_dict['images']))
-print(new_train_dict['annotations'][-1]['image_id'])
+
 for idx,ann in enumerate(new_train_dict['annotations']):
     if idx !=int(ann['id']):
         print(ann['id'])
