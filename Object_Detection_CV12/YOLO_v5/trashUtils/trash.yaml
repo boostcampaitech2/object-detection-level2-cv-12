@@ -1,0 +1,8 @@
+train: content/trash/images/train/ 
+val: content/trash/images/val/
+test: content/trash/images/test/
+
+# number of classes
+nc: 10
+# class names
+names: ['General trash', 'Paper', 'Paper pack', 'Metal', 'Glass', 'Plastic', 'Styrofoam', 'Plastic bag', 'Battery', 'Clothing']
