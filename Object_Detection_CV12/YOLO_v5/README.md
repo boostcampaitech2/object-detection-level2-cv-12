@@ -2,8 +2,8 @@
 https://github.com/ultralytics/yolov5
 
 ### yoloDataSet생성, TXTtoCSV. 
-trashUtil/createDatase.py
-trashUtil/createDatase.py
+trashUtil/createDatase.py 
+trashUtil/makeCSV.py
 
 
 ### train 
