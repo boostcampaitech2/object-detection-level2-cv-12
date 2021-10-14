@@ -15,3 +15,4 @@ train.py --weights yolov5x6.pt --data ./dataset/trash/trash.yaml --hyp data/hyps
 val.py --weights ./workdir/yolo/weights/best.pt --augment --project ./output/ --name yolo --save-txt --save-conf
 ```
 
+CV Score 0.601 LB Score 0.594
