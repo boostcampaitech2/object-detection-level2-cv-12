@@ -1,8 +1,4 @@
 
-### yoloDataSet생성, TXTtoCSV. 
-trashUtil/createDatase.py  
-trashUtil/makeCSV.py
-
 
 ### train 
 ```
